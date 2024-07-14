@@ -21,8 +21,8 @@ Fault Domains (FD):
 - provide antiaffinity
 - logical datacenters
 
-As of March 2023: 
-- 41 regions (9 more planned)
+As of July 2024: 
+- 48 regions (commercial, government and sovereign regions)
 - 12 Azure Interconnect Regions
 - Dedicated region Cloud@Customer: differentiated hybrid cloud offering
 
@@ -64,37 +64,33 @@ As of March 2023:
 
 Distributed cloud offers exceptional flexibility and choice. Oracle offers:
 
-- Public cloud with 41+ global rgions, including:
+- Public cloud with 48 global rgions, including:
   - Commercial
   - US Government
   - UK Government
   - US National Security Regions
   - EU Sovereign
 - Hybrid cloud, including:
-  - Oracle Exatada Cloud@Customer
+  - Oracle Cloud@Customer
   - Oracle Roving Edge Infrastructure
-  - OCI Observability and Management
-  - Oracle Database
 - Dedicated cloud (a type of Hybrid cloud), when it runs in customer data centers, including:
   - OCI Dedicated Region
-  - Oracle Alloy
 - Multicloud, when Oracle products work with other providers, including:
-  - Oracle Database Service for Azure
+  - Oracle Database@Azure
   - Oracle Interconnect for Azure
   - Oracle MySQL Heatwave on AWS
 
-#### 3.1 Hybrid Cloud Services
+#### 3.1 Multicloud: Oracle Database@Azure
 
-![image](https://github.com/user-attachments/assets/3fc08ae0-3085-4d88-a085-967364d0670e)
+![image](https://github.com/user-attachments/assets/4ce76c71-cde5-451c-9553-9f581ed31b87)
 
-#### 3.2 Dedicated Region Cloud@Customer
+#### 3.2 Hybrid Cloud Services
+
+![image](https://github.com/user-attachments/assets/7d8bfc22-0c63-4f0f-9e26-d4fc08ea31ce)
+
+#### 3.3 Dedicated Region Cloud@Customer
+
+Follows a shared responsibility model with the customer. Generally used due to data residency & compliance requirements, and to reduce latency.
 
 ![image](https://github.com/user-attachments/assets/8145d378-cad1-4868-8a95-fe97e6cc8462)
 
-#### 3.3 Multicloud: OCI-Azure Interconnect
-
-![image](https://github.com/user-attachments/assets/15ab48f1-445f-4bb3-8576-89430d2875b7)
-
-#### 3.4 Multicloud: Oracle Database Service for Azure
-
-![image](https://github.com/user-attachments/assets/0518b986-800f-4608-85cc-9ac5603b5dca)
