@@ -5,6 +5,7 @@
 7 major categories of services:
 
 ![image](https://github.com/user-attachments/assets/88ad8258-4bde-42d5-bc84-80213392c0f6)
+Source: [Oracle University](https://mylearn.oracle.com/ou/course/oracle-cloud-infrastructure-foundations/139383/221326)
 
 ### 2. OCI Architecture
 
@@ -38,6 +39,7 @@ As of July 2024:
 - Unlikely to fail simultaneously -> Physical infrastructure is not shared
 
 ![image](https://github.com/user-attachments/assets/5338697a-b1d3-4343-8d31-f89671a10d55)
+Source: [Oracle University](https://mylearn.oracle.com/ou/course/oracle-cloud-infrastructure-foundations/139383/189909)
 
 #### 2.3 Fault Domains (FD)
 
@@ -47,7 +49,8 @@ As of July 2024:
 - Change procedures in a region happen at most in ONE fault domain each time, so availability problems caused by changed procedures are isolated at FD level
 - At instance launch time you can control the FD placement of compute or database instances
 
- ![image](https://github.com/user-attachments/assets/0d3b1051-f266-46d3-8958-4d490d00c84c)
+![image](https://github.com/user-attachments/assets/0d3b1051-f266-46d3-8958-4d490d00c84)
+Source: [Oracle University](https://mylearn.oracle.com/ou/course/oracle-cloud-infrastructure-foundations/139383/189909)
 
 #### 2.4 In summary, use ADs and FDs to avoid single points of failure
 
@@ -56,9 +59,10 @@ As of July 2024:
 - and in different ADs for multiple regions
 
 ![image](https://github.com/user-attachments/assets/10df987e-8dd6-4a10-99b1-c9d4f63063c3)
+Source: [Oracle University](https://mylearn.oracle.com/ou/course/oracle-cloud-infrastructure-foundations/139383/189909)
 
 ![image](https://github.com/user-attachments/assets/6e3f5882-e763-4065-a09a-6b90b8273246)
-
+Source: [Oracle University](https://mylearn.oracle.com/ou/course/oracle-cloud-infrastructure-foundations/139383/189909)
 
 ### 3. OCI Distributed Cloud
 
@@ -83,14 +87,16 @@ Distributed cloud offers exceptional flexibility and choice. Oracle offers:
 #### 3.1 Multicloud: Oracle Database@Azure
 
 ![image](https://github.com/user-attachments/assets/4ce76c71-cde5-451c-9553-9f581ed31b87)
+Source: [Oracle University](https://mylearn.oracle.com/ou/course/oracle-cloud-infrastructure-foundations/139383/221635)
 
 #### 3.2 Hybrid Cloud Services
 
 ![image](https://github.com/user-attachments/assets/7d8bfc22-0c63-4f0f-9e26-d4fc08ea31ce)
+Source: [Oracle University](https://mylearn.oracle.com/ou/course/oracle-cloud-infrastructure-foundations/139383/221635)
 
 #### 3.3 Dedicated Region Cloud@Customer
 
 Follows a shared responsibility model with the customer. Generally used due to data residency & compliance requirements, and to reduce latency.
 
 ![image](https://github.com/user-attachments/assets/8145d378-cad1-4868-8a95-fe97e6cc8462)
-
+Source: [Oracle University](https://mylearn.oracle.com/ou/course/oracle-cloud-infrastructure-foundations/139383/221635)
