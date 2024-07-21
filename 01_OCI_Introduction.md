@@ -49,7 +49,7 @@ Source: [Oracle University](https://mylearn.oracle.com/ou/course/oracle-cloud-in
 - Change procedures in a region happen at most in ONE fault domain each time, so availability problems caused by changed procedures are isolated at FD level
 - At instance launch time you can control the FD placement of compute or database instances
 
-![image](https://github.com/user-attachments/assets/0d3b1051-f266-46d3-8958-4d490d00c84)
+![image](https://github.com/user-attachments/assets/fcaf37df-e4c8-4e11-8ff8-9b72dc887acc)
 Source: [Oracle University](https://mylearn.oracle.com/ou/course/oracle-cloud-infrastructure-foundations/139383/189909)
 
 #### 2.4 In summary, use ADs and FDs to avoid single points of failure
