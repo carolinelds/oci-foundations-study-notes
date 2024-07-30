@@ -103,16 +103,36 @@ Source: [Oracle University](https://mylearn.oracle.com/ou/course/oracle-cloud-in
 Source: [Oracle University](https://mylearn.oracle.com/ou/course/oracle-cloud-infrastructure-foundations/139383/189886)
 
 Some notes:
-- Policies are defined at group level, not by users
+- Policies can be assigned to groups, not to users
 - When you create an IAM Domain, you associate it to a Compartment (e.g. Sandbox, Development, Root, etc)
 - When you create an IAM Domain, it automatically comes with 2 default groups:
   - All_Domain_Users
   - Domain_Administrators
 - Then you are able to create groups inside an IAM Domain
 - And when you create a user you can assign it to a group or not
-- And then you can create policies and assign them to Groups, giving permissions to specific Compartments or to a Tenancy
+- And then you can create policies and assign them to groups, giving permissions to specific Compartments or to a Tenancy
 
 #### 2.6 Tenancy Setup
+
+![image](https://github.com/user-attachments/assets/f84d0e6a-db1b-45ec-961f-9890625a6252)
+Source: [Oracle University](https://mylearn.oracle.com/ou/course/oracle-cloud-infrastructure-foundations/139383/165492)
+
+Best practices:
+- Don't use the Tenancy Administrator Account for day-to-day operations: create an administrator group inside the OCI account instead
+- Create dedicated compartments to isolate resources: e.g. in the above picture, you could create more compartments inside the sandbox-compartment to isolate even more; and don't use the root compartment
+- Enforce the use of Multi-Factor Autentication (MFA): something you know (e.g. password) + something you have (e.g. TOTP token from a device)
+
+Examples of policies to provide for an OCI-admin-group so that it can act as a proxy for Tenancy Administrator (i.e. be used in day-to-day operations):
+
+![image](https://github.com/user-attachments/assets/1a9c90b4-2535-43f5-be7e-0fe1d7da52ca)
+Source: [Oracle University](https://mylearn.oracle.com/ou/course/oracle-cloud-infrastructure-foundations/139383/165492)
+
+
+
+
+ 
+
+
 
 
 
